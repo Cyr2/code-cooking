@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(70, 69, 69);
+    font-weight: 800;
+}
+
+.profil {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-profil {
+    display: flex;
+    flex-direction: row;
+}
+
+.avis{
+    display: flex;
+    flex-direction: row;
+}
+
+.etoiles{
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.bas {
+    border: none;
+    background-color: rgb(224, 71, 71);
+    border-radius: 7px;
+    padding: 7px 10px;
+}
